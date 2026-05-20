@@ -2,6 +2,7 @@
 My own portfolio website used to demonstrate all the skills i have learned until this day
 - Currently in developpement
 - Techbnologies I will be using
+
     . React
     . JavaScript
     . PHP
