@@ -9,7 +9,7 @@ My own portfolio website used to demonstrate all the skills i have learned until
 
 This README will be updated as the project goes into further developpement to act as a log for this project.
 
-This project will be the first iI attempt to do completly based on tutorials and my own experience (and without AI of course)
+This project will be the first I attempt to do completly based on tutorials and my own experience (and without AI of course)
 
 
 ## Day 1 - Start of development 
