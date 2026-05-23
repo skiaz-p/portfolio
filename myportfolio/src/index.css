@@ -14,3 +14,17 @@ a{
   line-height: 1;
   cursor: pointer;
 }
+.container{
+  padding-left:10%;
+  padding-right: 10%f;
+}
+.btn{
+  background: #FFF;
+  color: cornflowerblue;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border : 0 ;
+  outline: 0;
+}

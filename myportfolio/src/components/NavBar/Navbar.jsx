@@ -4,12 +4,12 @@ import logo from "../../assets/d.png"
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='container'>
       <img src={logo} alt="logo" className="logo"/>
       <ul>
         <li>Home</li>
         <li>About me</li>
-        <li>Contact</li>
+        <li><button className='btn'>Contact me</button></li>
       </ul>
     </nav>
   )
