@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Link} from 'react-scroll'
 import "./Navbar.css"
 import logo from "../../assets/d.png"
 
@@ -16,9 +17,9 @@ const Navbar = () => {
     <nav className={`container ${sitcky ? 'dark-nav' : ''}`}>
       <img src={logo} alt="logo" className="logo"/>
       <ul>
-        <li>Home</li>
-        <li>About me</li>
-        <li><button className='btn'>Contact me</button></li>
+        <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+        <li><Link to='infos' smooth={true} offset={-260} duration={500}>About me</Link></li>
+        <li><Link to='contact' smooth={true} offset={0} duration={500} className='btn'>Contact me</Link></li>
       </ul>
     </nav>
   )

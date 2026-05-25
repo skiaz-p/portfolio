@@ -9,7 +9,7 @@ import info_icon_3 from '../../assets/program-icon-3.png'
 
 const aboutme = () => {
   return (
-    <div className='infos'>
+    <div className='infos' name='about'>
       <div className="info">
         <img src={isa_logo} alt="logo ISA NUM" />
         <div className="caption">

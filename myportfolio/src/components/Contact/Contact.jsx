@@ -33,7 +33,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="contact">
+    <div className="contact" name='contact'>
       <div className="contact-col">
         <h3>Send me a message <img src={msg_icon} alt="" /></h3>
         <p>Feel free to reach out throug contact form or find my contact information below. 
