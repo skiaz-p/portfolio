@@ -31,6 +31,8 @@ const aboutme = () => {
             <p>Network configuration basics</p>
         </div>
       </div>
+
+      <button className="btn dark-btn">Learn More</button>
     </div>
   )
 }

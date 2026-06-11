@@ -40,3 +40,11 @@
     opacity: 1;
     padding-top: 0;
 }
+
+.btn .dark-btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}

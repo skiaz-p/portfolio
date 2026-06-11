@@ -16,11 +16,14 @@ const Examples = () => {
     if(X > -50){
       X -= 25;
     }
-    theslider.current.style.tranform = `translateX(${X}%)`
+    theslider.current.style.tranform = `translate(${X}%)`
   }
 
   const backward = () =>{
-    
+    if(X < 0){
+      X += 25;
+    }
+    theslider.current.style.tranform = `translate(0px, ${X}%)`
   }
 
   return (
