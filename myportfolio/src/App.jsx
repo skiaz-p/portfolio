@@ -4,6 +4,7 @@ import Navbar from './components/NavBar/Navbar';
 import Hero from './components/Hero/Hero';
 import Container from './components/Container/container';
 import AboutMe from './components/AboutMe/aboutme';
+import Author from './components/Author/Author';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <BrowserRouter>
       <Routes>
           <Route path="/" element={<Container />} />
-          <Route path="/About" element={<AboutMe />} />
+          <Route path="/About" element={<Author />} />
       </Routes>
       <Navbar />
 

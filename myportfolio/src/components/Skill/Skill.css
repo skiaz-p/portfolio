@@ -1,0 +1,20 @@
+.Skill{
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 40px;
+    border-radius: 10px;
+    color: #676767;
+    line-height: 1.4;
+    background-color: blanchedalmond;
+}
+
+.Skill p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.Skill h3{
+    color: #212EA0;
+}
