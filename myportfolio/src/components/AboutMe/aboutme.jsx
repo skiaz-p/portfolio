@@ -1,6 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import './aboutme.css'
 import isa_logo from '../../assets/isa-logo.png'
 import dev_logo from '../../assets/dev.png'
@@ -34,7 +34,7 @@ const aboutme = () => {
         </div>
       </div>
 
-      <button className="btn dark-btn"><Link to="/AboutMe">Learn More</Link></button>
+      <button className="btn dark-btn"><Link to="/About">Learn More</Link></button>
     </div>
   )
 }
