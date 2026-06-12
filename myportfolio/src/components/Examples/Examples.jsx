@@ -12,18 +12,20 @@ const Examples = () => {
   const theslider = useRef(null);
   var X = 0;
 
+
   const forward = () =>{
     if(X > -50){
       X -= 25;
+      
     }
-    theslider.current.style.tranform = `translate(${X}%)`
+    theslider.current.style.transform =`translate(${X}%)`
   }
 
   const backward = () =>{
     if(X < 0){
       X += 25;
     }
-    theslider.current.style.tranform = `translate(0px, ${X}%)`
+    theslider.current.style.transform =`translate(${X}%)`
   }
 
   return (

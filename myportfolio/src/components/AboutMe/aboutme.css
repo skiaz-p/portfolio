@@ -42,9 +42,13 @@
 }
 
 .btn .dark-btn{
-    border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    border : 0 ;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
