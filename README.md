@@ -4,7 +4,6 @@ My own portfolio website used to demonstrate all the skills I have learned until
 - Techbnologies I will be using
 
     . React JS
-    . PHP
     . CSS
 
 This README will be updated as the project goes into further developpement to act as a progess log (or a messy diary) for this project.
