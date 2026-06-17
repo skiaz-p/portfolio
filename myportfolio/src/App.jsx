@@ -5,7 +5,7 @@ import Hero from './components/Hero/Hero';
 import Container from './components/Container/container';
 import AboutMe from './components/AboutMe/aboutme';
 import Author from './components/Author/Author';
-
+import ContainerPage from './components/ContainerPagePres/ContainerPage';
 const App = () => {
   return (
     <div>
@@ -13,6 +13,7 @@ const App = () => {
       <Routes>
           <Route path="/" element={<Container />} />
           <Route path="/About" element={<Author />} />
+          <Route path="/Page" element={<ContainerPage />}/>
       </Routes>
       <Navbar />
 

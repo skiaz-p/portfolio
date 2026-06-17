@@ -7,9 +7,9 @@ const Author = () => {
   return (
     <div className="container">
     <div className="Info-container">
-      <img src="/src/assets/about.png" alt="" />
+      <img src="/src/assets/photoCV.jpg" alt="" />
         <h2>About myself</h2>
-        <p>   My name is Luc Casassus Latrille, I am a 20 year old student at ISANUM, \n
+        <p>   My name is Luc Casassus Latrille, I am a 20 year old student at ISANUM,
             a school of engineering in the south of France. 
             I am currently in the end of my second year of studies and I am passionate about app development and network configuration basics. 
             I have a strong interest in technology and I enjoy creating content related to these topics.

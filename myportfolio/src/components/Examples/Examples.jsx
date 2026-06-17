@@ -1,4 +1,5 @@
 import React, {useRef}from 'react'
+import { Link } from 'react-router-dom';
 import './Examples.css'
 import next_icon from "../../assets/next-icon.png"
 import back_icon from "../../assets/back-icon.png"
@@ -35,6 +36,7 @@ const Examples = () => {
       <div className="slider">
         <ul ref={theslider}>
           <li>
+            <Link to='/Page'>
             <div className="slide">
               <div className="project-info">
                 <img src={Uno_icon} alt="" />
@@ -45,6 +47,7 @@ const Examples = () => {
               </div>
               <p>A recreation of the hit game Uno with full base functionalities. More will be added as the game goes further into development</p>
             </div>
+            </Link>
           </li>
           <li>
             <div className="slide">
