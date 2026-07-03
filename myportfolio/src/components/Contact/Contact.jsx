@@ -36,8 +36,8 @@ const Contact = () => {
     <div className="contact" name='contact'>
       <div className="contact-col">
         <h3>Send me a message <img src={msg_icon} alt="" /></h3>
-        <p>Feel free to reach out throug contact form or find my contact information below. 
-            Your feedback, questions and suggestions are important to me as i enjoy creating content of this format</p>
+        <p>Feel free to reach out through the contact form or find my contact information below. 
+            Your feedback, questions and suggestions are important to me as I enjoy creating content of this format</p>
             <ul>
                 <li><img src={GMAIL_icon} alt=""/>luc.casalat@gmail.com</li>
                 <li><img src={Phone_icon} alt=""/>+33 7 69 33 18 43</li>

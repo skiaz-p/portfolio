@@ -26,14 +26,41 @@
 
 .Info-container p {
     text-indent: 40px;
-    paddin
 }
 
 .Info-container img{
-    width: 150px;
+    width : 150px;
     border : solid;
-    border-radius: 0;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    border-radius : 0;
+    margin-right : 10px;
+    margin-bottom : 10px;
 }
 
+.btn{
+  background: #FFF;
+  color: cornflowerblue;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border : 0 ;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+.SkillBoxes ul{
+    text-indent: 0%;
+    padding-left: 50px;
+}
+
+.SkillBoxes ul li{
+    list-style-type : "- ";
+    color: purple;
+}
