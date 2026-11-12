@@ -11,20 +11,10 @@ This README will be updated as the project goes into further developpement to ac
 This project will be the first I attempt to do completly based on tutorials and my own experience (and without AI of course)
 
 
-## Day 1 - Start of development 
-The first day was really succesfull as I did way more than i expected:
-- The front page is halfway done
-- The setup for the other pages is in the way
+## STATUS - On Hold
+This project has been put on hold. The project is not going the way i originaly intended and with others projects on the way, i decided to put this one on hold for the time being. 
+I will probably refactor this entire project to use another language and framework (for example angular instead of React).
 
-Thanks GreatStack for an amazing tutorial on how to make and reponsive page using React JS.
-
-
-## Day 2
-The first page is near it's completion, everything is in order (but not particularly pretty),
-I still need to add a section with a preview of some of my projects but for now I think I did a pretty good job
-- Front page nearly finished
-- The setup for the other pages is in rework (as i changed how i wanted to do it in the middle of coding)
-      - I plan to Have about 4 pages in total : Front, my projects, myself and my current school
 
 
     
